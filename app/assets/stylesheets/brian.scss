@@ -1,0 +1,37 @@
+// Place all the styles related to the brian controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  // background-color: gray;
+  font-family: 'arial narrow', helvetica, sans-serif;
+}
+
+.brian {
+  margin-top: 2rem;
+
+  .title {
+    margin-top: 3rem;
+    font-family: 'helvetica', helvetica, sans-serif;
+  }
+
+  marquee {
+    font-family: 'comic sans ms', cursive;
+    font-size: 2rem;
+    color: blue;
+  }
+
+  p {
+    font-size: 1.7rem;
+  }
+
+  .vote {
+    position: fixed;
+    right: 10%;
+    padding: 1rem 4rem;
+  }
+
+  .img-responsive {
+    margin: 0 auto;
+  }
+}

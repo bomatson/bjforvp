@@ -1,0 +1,50 @@
+.brian.text-center
+  .row
+    .col-xs-12
+      marquee You can vote online!
+      h1.title Building a Brighter Palms, For People
+      h2 Brian Jennings for Vice President
+
+      a href='http://empowerla.org/vrp/' target='_blank'
+        button.btn.btn-primary.vote Vote Now
+
+      .col-xs-4.col-sm-offset-4
+        p Brian Jennings has what it takes to be the Vice President of Palms. Why, you ask? Just keep reading about him and all he has done in the news.
+
+      img.img-responsive src='/assets/brian.png'
+
+  .row
+    .col-xs-12
+      h2.title Reasons You Should Vote for Brian
+    .col-xs-4
+      h3 Humble
+      img.img-responsive src='/assets/clapping.jpg'
+      p Brian has a really great personality which is why he has so many friends
+    .col-xs-4
+      h3 Active
+      img.img-responsive src='/assets/lama.jpg'
+      p Brian likes the outdoors and is outside a lot, which is important for City Council responsibilites
+    .col-xs-4
+      h3 Fun
+      img.img-responsive src='/assets/heli.jpg'
+      p Brian is fun as fun can be, with lots of interests
+
+  .row
+    .col-xs-12
+      h2.title Other Things To Think About
+      p 1. Who do you want helping out with Palms?
+      p 2. What are you looking for in your city council candidate?
+      p 3. Actually how big were velociraptors? Were they really that scary?
+
+  .row
+    .col-xs-12
+      h2.title How to Get Involved
+      p Join our mailing list to hear updates about Brian, the greatest guy I know.
+      = form_tag '/brian', method: 'post', class: 'form-inline'
+        .form-group
+          input.form-control type='email' placeholder='getintoit@brian.com' name='email'
+        button.btn.btn-default type='submit'
+          | Join US
+
+      h2 Thank you for your time
+
